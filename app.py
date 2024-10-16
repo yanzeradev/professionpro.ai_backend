@@ -31,7 +31,7 @@ def carregar_palavras_chave(caminho_arquivo):
         return []
 
 # Carregar palavras-chave
-caminho_arquivo = 'palavras_chave.txt'
+caminho_arquivo = 'keywords.txt'
 palavras_chave = carregar_palavras_chave(caminho_arquivo)
 
 # Inicialização do Flask
