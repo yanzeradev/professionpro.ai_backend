@@ -6,7 +6,7 @@ import unicodedata
 import os
 
 # Configuração da API do Google
-GOOGLE_GEMINI_API_KEY = 'AIzaSyDJ9ixc9hziZ6ckYz_Wbj0TuqwYW7usXUA'  # Substitua pela sua chave real
+GOOGLE_GEMINI_API_KEY = 'AIzaSyBXrNCm1UysLuXIBI-ilsITf4u3gDxL0aM'  # Substitua pela sua chave real
 genai.configure(api_key=GOOGLE_GEMINI_API_KEY)
 model = genai.GenerativeModel("gemini-1.5-flash-latest")
 
